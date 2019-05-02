@@ -1,0 +1,389 @@
+BetaPro Canadian Gold Miners -2x Daily Bear ETF 	HGD 	HGD
+BetaPro Canadian Gold Miners 2x Daily Bull ETF 	HGU 	HGU
+BetaPro Crude Oil -2x Daily Bear ETF 	HOD 	HOD
+BetaPro Crude Oil 2x Daily Bull ETF 	HOU 	HOU
+BetaPro Natural Gas -2x Daily Bear ETF 	HND 	HND
+BetaPro Natural Gas 2x Daily Bull ETF 	HNU 	HNU
+BetaPro Natural Gas 2x Daily Bull ETF	HNU1 	HNU1
+BMO Aggregate Bond Index ETF 	ZAG 	ZAG
+BMO Canadian Dividend ETF 	ZDV 	ZDV
+BMO Equal Weight Banks Index ETF 	ZEB 	ZEB
+BMO Equal Weight Oil & Gas Index ETF 	ZEO1 	ZEO1
+BMO Equal Weight US Banks Hedged to CAD Index ETF 	ZUB 	ZUB
+BMO Equal Weight Utilities Index ETF 	ZUT 	ZUT
+BMO High Yield US Corporate Bond Hedged to CAD Index ETF 	ZHY 	ZHY
+BMO Long Federal Bond Index ETF 	ZFL 	ZFL
+BMO Low Volatility Canadian Equity ETF 	ZLB 	ZLB
+BMO MSCI EAFE Hedged to CAD Index ETF 	ZDM 	ZDM
+BMO MSCI EAFE Index ETF 	ZEA 	ZEA
+BMO Nasdaq 100 Equity Hedged to CAD Index ETF 	ZQQ 	ZQQ
+BMO S&P 500 Hedged to CAD Index ETF 	ZUE 	ZUE
+BMO S&P 500 Index ETF 	ZSP 	ZSP
+BMO S&P/TSX Capped Composite Index ETF 	ZCN 	ZCN
+BMO S&P/TSX Laddered Preferred Share Index ETF 	ZPR 	ZPR
+Horizons Active Preferred Share ETF 	HPR 	HPR
+Horizons Marijuana Life Sciences Index ETF 	HMMJ 	HMMJ
+Horizons S&P/TSX 60 Index ETF 	HXT 	HXT
+iShares Canadian Corporate Bond Index ETF 	XCB 	XCB
+iShares Canadian Select Dividend Index ETF 	XDV 	XDV
+iShares Core Canadian Short Term Bond Index ETF 	XSB 	XSB
+iShares Core S&P 500 Index ETF (CAD-Hedged) 	XSP 	XSP
+iShares Core S&P/TSX Capped Composite Index ETF 	XIC 	XIC
+iShares MSCI EAFE Index ETF (CAD-Hedged) 	XIN 	XIN
+iShares S&P/TSX 60 Index ETF 	XIU 	XIU
+iShares S&P/TSX Capped Energy Index ETF 	XEG 	XEG
+iShares S&P/TSX Capped Financials Index ETF 	XFN 	XFN
+iShares S&P/TSX Capped REIT Index Fund 	XRE 	XRE
+iShares S&P/TSX Global Gold Index ETF 	XGD 	XGD
+iShares U.S. Small Cap Index ETF (CAD-Hedged) 	XSU 	XSU
+S&P/TSX 60 Index Options 	SXO 	TX60
+S&P/TSX Capped Utilities Index Options 	SXV 	TTUT
+S&P/TSX Composite Index Banks (Industry Group) Options 	SXJ 	TXBA
+Vanguard Canadian Aggregate Bond Index ETF 	VAB 	VAB
+Vanguard Canadian Short-Term Bond Index ETF 	VSB 	VSB
+Vanguard Canadian Short-Term Corporate Bond Index ETF 	VSC 	VSC
+Vanguard S&P 500 Index ETF 	VFV 	VFV
+Advantage Oil & Gas Ltd. 	AAV 	AAV
+Aecon Group Inc. 	ARE 	ARE
+AGF Management Ltd., Cl. B 	AGF 	AGF.B
+Agnico Eagle Mines Limited 	AEM 	AEM
+Air Canada 	AC 	AC
+Alacer Gold Corp. 	ASR 	ASR
+Alamos Gold Inc. 	AGI 	AGI
+Alaris Royalty Corp. 	AD 	AD
+Algonquin Power & Utilities Corp. 	AQN 	AQN
+Alimentation Couche Tard Inc., Cl. B 	ATD 	ATD.B
+Allied Properties Real Estate Investment Trust 	AP 	AP u
+AltaGas Ltd. 	ALA 	ALA
+Altus Group Limited 	AIF 	AIF
+Aphria Inc. 	APHA 	APHA
+ARC Resources Ltd. 	ARX 	ARX
+Argonaut Gold Inc. 	AR 	AR
+Aritzia Inc. 	ATZ 	ATZ
+Artis Real Estate Investment Trust 	AX 	AX u
+ATCO Ltd. 	ACO 	ACO.X
+Atlantic Power Corporation 	ATP 	ATP
+ATS Automation Tooling Systems Inc. 	ATA 	ATA
+Aurora Cannabis Inc. 	ACB 	ACB
+AutoCanada Inc. 	ACQ 	ACQ
+B2Gold Corp. 	BTO 	BTO
+Badger Daylighting Ltd. 	BAD 	BAD
+Ballard Power Systems Inc. 	BLDP 	BLDP
+Bank of Montreal 	BMO 	BMO
+Bank of Nova Scotia (The) 	BNS 	BNS
+Barrick Gold Corporation 	ABX 	ABX
+Bausch Health Companies Inc. 	BHC 	BHC
+Baytex Energy Corp. 	BTE 	BTE
+BCE Inc. 	BCE 	BCE
+Birchcliff Energy Limited 	BIR 	BIR
+BlackBerry Limited 	BB 	BB
+Boardwalk Real Estate Investment Trust 	BEI 	BEIu
+Bombardier Inc., Cl. B 	BBD 	BBD.B
+Bonavista Energy Corporation 	BNP 	BNP
+Boralex Inc. Class A Shares 	BLX 	BLX
+Brookfield Asset Management Inc., Cl. A 	BAM 	BAM.A
+Brookfield Infrastructure Partners L.P. 	BIP 	BIPu
+Brookfield Property Partners L.P. 	BPY 	BPYu
+Brookfield Renewable Partners L.P. 	BEP 	BEPu
+BRP Inc. 	DOO 	DOO
+CAE Inc. 	CAE 	CAE
+Calfrac Well Services Ltd. 	CFW 	CFW
+Cameco Corporation 	CCO 	CCO
+Canaccord Genuity Group Inc. 	CF 	CF
+Canada Goose Holdings Inc. 	GOOS 	GOOS
+Canadian Apartment Properties Real Estate Investment Trust 	CAR 	CARu
+Canadian Imperial Bank of Commerce 	CM 	CM
+Canadian National Railway Company 	CNR 	CNR
+Canadian Natural Resources Limited 	CNQ 	CNQ
+Canadian Pacific Railway Limited 	CP 	CP
+Canadian Tire Corporation Limited, Cl. A 	CTC 	CTC.A
+Canadian Utilities Limited 	CU 	CU
+Canadian Western Bank 	CWB 	CWB
+Canfor Corporation 	CFP 	CFP
+CannTrust Holdings Inc. 	TRST 	TRST
+Canopy Growth Corporation 	WEED 	WEED
+Capital Power Corporation 	CPX 	CPX
+Cardinal Energy Ltd. 	CJ 	CJ
+Cascades Inc. 	CAS 	CAS
+CCL Industries Inc., Cl. B 	CCL 	CCL.B
+Celestica Inc. 	CLS 	CLS
+Cenovus Energy Inc. 	CVE 	CVE
+Centerra Gold Inc. 	CG 	CG
+CES Energy Solutions Corp. 	CEU 	CEU
+CGI Inc., Cl. A 	GIB 	GIB.A
+Chartwell Retirement Residences 	CSH 	CSHu
+Chemtrade Logistics Income Fund 	CHE 	CHEu
+Chorus Aviation Inc., Cl. B 	CHR 	CHR
+CI Financial Corp. 	CIX 	CIX
+Cineplex Inc. 	CGX 	CGX
+Cogeco Communications Inc. 	CCA 	CCA
+Colliers International Group Inc. Subordinate Voting 	CIGI 	CIGI
+Cominar Real Estate Investment Trust 	CUF 	CUFu
+Continental Gold Inc. 	CNL 	CNL
+CORUS Entertainment Inc., Cl. B 	CJR 	CJR.B
+Cott Corp. 	BCB 	BCB
+Crescent Point Energy Corp. 	CPG 	CPG
+Crew Energy Incorporated 	CR 	CR
+Crombie Real Estate Investment Trust 	CRR 	CRRu
+Cronos Group Inc. 	CRON 	CRON
+Descartes Systems Group Inc. 	DSG 	DSG
+Detour Gold Corp. 	DGC 	DGC
+DHX Media Ltd. 	DHX 	DHX
+DIRTT Environmental Solutions Ltd. 	DRT 	DRT
+Dollarama Inc. 	DOL 	DOL
+Domtar Corporation 	UFS 	UFS
+Dream Global Real Estate Investment 	DRG 	DRGu
+Dream Industrial Real Estate Investment Trust 	DIR 	DIRu
+Dream Office Real Estate Investment Trust 	D 	D u
+DREAM Unlimited Corp. 	DRM 	DRM
+Dundee Precious Metals Inc. 	DPM 	DPM
+Eldorado Gold Corp. 	ELD 	ELD
+Element Financial Corporation 	EFN 	EFN
+Emera Inc. 	EMA 	EMA
+Empire Company Limited, Cl. A 	EMP 	EMP.A
+Enbridge Inc. 	ENB 	ENB
+Encana Corporation 	ECA 	ECA
+Endeavour Mining Corporation 	EDV 	EDV
+Endeavour Silver Corp. 	EDR 	EDR
+Enerflex Ltd. 	EFX 	EFX
+Enerplus Resources Fund 	ERF 	ERF
+Ensign Energy Services Inc. 	ESI 	ESI
+Extendicare Inc. 	EXE 	EXE
+Finning International Inc. 	FTT 	FTT
+First Capital Realty Inc. 	FCR 	FCR
+First Majestic Silver Corp. 	FR 	FR
+First Quantum Minerals Ltd. 	FM 	FM
+Fortis Inc. 	FTS 	FTS
+Fortuna Silver Mines Inc. 	FVI 	FVI
+Franco-Nevada Corp. 	FNV 	FNV
+Freehold Royalties Ltd. 	FRU 	FRU
+Genworth MI Canada Inc. 	MIC 	MIC
+George Weston Limited 	WN 	WN
+Gibson Energy Inc. 	GEI 	GEI
+Gildan Activewear Inc. 	GIL 	GIL
+Gluskin Sheff + Associates Inc. 	GS 	GS
+Goldcorp Inc. 	G1 	G1
+Gran Tierra Energy Inc. 	GTE 	GTE
+Granite Real Estate Investment Trust Inc. 	GRT 	GRTu
+Great Canadian Gaming Corporation 	GC 	GC
+Great-West Lifeco Inc. 	GWO 	GWO
+Groupe Aeroplan Inc. 	AIM 	AIM
+Guyana Goldfields Inc. 	GUY 	GUY
+H&R Real Estate Investment Trust 	HR 	HR u
+Home Capital Group Inc. 	HCG 	HCG
+Hudbay Minerals Inc. 	HBM 	HBM
+Hudson's Bay Company 	HBC 	HBC
+Husky Energy Inc. 	HSE 	HSE
+Hydro One Limited 	H 	H
+Hypothecary Corporation 	HEXO 	HEXO
+iA Financial Corporation Inc. 	IAG 	IAG
+IAMGOLD Corporation 	IMG 	IMG
+IGM Financial Inc. 	IGM 	IGM
+Imperial Oil Limited 	IMO 	IMO
+Innergex Renewable Energy Inc. 	INE 	INE
+Intact Financial Corporation 	IFC 	IFC
+Inter Pipeline Ltd. 	IPL 	IPL
+Interfor Corporation 	IFP 	IFP
+Intertape Polymer Group Inc. 	ITP 	ITP
+Ivanhoe Mines Ltd. 	IVN 	IVN
+Jamieson Wellness Inc. 	JWEL 	JWEL
+Just Energy Group Inc. 	JE 	JE
+Kelt Exploration Ltd. 	KEL 	KEL
+Keyera Corp. 	KEY 	KEY
+Kinaxis Inc. 	KXS 	KXS
+Kinder Morgan Canada Ltd. 	KML 	KML
+Kinder Morgan Canada Ltd. 	KML1 	KML1
+Kinross Gold Corporation 	K 	K
+Kirkland Lake Gold Inc. 	KL 	KL
+Knight Therapeutics Inc. 	GUD 	GUD
+Labrador Iron Ore Royalty Corporation	LIF 	LIF
+Largo Resources Ltd. 	LGO 	LGO
+Laurentian Bank of Canada 	LB 	LB
+Lightspeed POS Inc. 	LSPD 	LSPD
+Linamar Corporation 	LNR 	LNR
+Lithium Americas 	LAC 	LAC
+Loblaw Companies Ltd. 	L 	L
+Lundin Mining Corp. 	LUN 	LUN
+MAG Silver Corp. 	MAG 	MAG
+Magna International Inc 	MG 	MG
+Major Drilling Group International Inc. 	MDI 	MDI
+Manulife Financial Corporation 	MFC 	MFC
+Maple Leaf Foods Inc. 	MFI 	MFI
+Martinrea International Inc. 	MRE 	MRE
+Maxar Technologies Ltd. 	MAXR 	MAXR
+McEwen Mining Inc. 	MUX 	MUX
+MEG Energy Corp. 	MEG 	MEG
+Methanex Corporation 	MX 	MX
+Metro Inc. 	MRU 	MRU
+Morneau Shepell Inc. 	MSI 	MSI
+MTY Food Group Inc. 	MTY 	MTY
+Mullen Group Ltd. 	MTL 	MTL
+National Bank of Canada 	NA 	NA
+Neptune Technologies & Bioressources Inc. 	NEPT 	NEPT
+New Gold Inc. 	NGD 	NGD
+NFI Group Inc. 	NFI 	NFI
+Norbord Inc. 	OSB 	OSB
+North West Company Inc. 	NWC 	NWC
+Northland Power Inc. 	NPI 	NPI
+Northview Apartment Real Estate Investment Trust 	NVU 	NVUu
+NorthWest Healthcare Properties Real Estate Investment Trust 	NWH 	NWHu
+NovaGold Resources Inc. 	NG 	NG
+Nutrien Ltd. 	NTR 	NTR
+NuVista Energy Limited 	NVA 	NVA
+OceanaGold Corporation 	OGC 	OGC
+Onex Corp. 	ONEX 	ONEX
+Open Text Corp. 	OTEX 	OTEX
+Osisko Gold Royalties Ltd. 	OR 	OR
+Osisko Mining Corp. 	OSK 	OSK
+Painted Pony Energy Ltd. 	PONY 	PONY
+Pan American Silver Corporation 	PAAS 	PAAS
+Pan American Silver Corporation 	PAAS1 	PAAS1
+Paramount Resources Ltd. 	POU 	POU
+Parex Resources Inc. 	PXT 	PXT
+Parkland Fuel Corporation 	PKI 	PKI
+Pason Systems Inc. 	PSI 	PSI
+Pembina Pipeline Corporation 	PPL 	PPL
+Peyto Exploration & Development Corp. 	PEY 	PEY
+Power Corporation of Canada 	POW 	POW
+Power Financial Corporation 	PWF 	PWF
+PrairieSky Royalty Ltd. 	PSK 	PSK
+Precision Drilling Corporation 	PD 	PD
+Premier Gold Mines Limited 	PG 	PG
+Premium Brands Holdings Corporation 	PBH 	PBH
+Pretium Resources Inc. 	PVG 	PVG
+Quebecor Inc., Cl. B 	QBR 	QBR.B
+Real Matters Inc. 	REAL 	REAL
+Resolute Forest Products Inc. 	RFP 	RFP
+Resolute Forest Products Inc. 	RFP1 	RFP1
+Restaurant Brands International 	QSR 	QSR
+Richelieu Hardware Ltd. 	RCH 	RCH
+RioCan Real Estate Investment Trust 	REI 	REIu
+Ritchie Bros. Auctioneers Incorporated 	RBA 	RBA
+Rogers Communications Inc., Cl. B 	RCI 	RCI.B
+Roots Corporation 	ROOT 	ROOT
+Royal Bank of Canada 	RY 	RY
+Russel Metals Inc. 	RUS 	RUS
+Sandstorm Gold Ltd. 	SSL 	SSL
+Saputo Inc. 	SAP 	SAP
+Savaria Corporation 	SIS 	SIS
+Seabridge Gold Inc. 	SEA 	SEA
+Secure Energy Services Inc. 	SES 	SES
+SEMAFO INC. 	SMF 	SMF
+Seven Generations Energy Ltd. 	VII 	VII
+Shaw Communications Inc., Cl. B 	SJR 	SJR.B
+ShawCor Ltd., Cl. A 	SCL 	SCL
+Shopify Inc. 	SHOP 	SHOP
+Sienna Senior Living Inc. 	SIA 	SIA
+Sierra Wireless Inc. 	SW 	SW
+Silvercorp Metals Inc. 	SVM 	SVM
+Sleep Country Canada Holdings Inc. 	ZZZ 	ZZZ
+SmartCentres Real Estate Investment Trust 	SRU 	SRUu
+SNC-Lavalin Group Inc. 	SNC 	SNC
+Spin Master Corp. 	TOY 	TOY
+SSR Mining Inc. 	SSRM 	SSRM
+Stantec Inc. 	STN 	STN
+Stelco Holdings Inc. 	STLC 	STLC
+Stella-Jones Inc. 	SJ 	SJ
+Sun Life Financial 	SLF 	SLF
+Suncor Energy Inc. 	SU 	SU
+SunOpta, Inc. 	SOY 	SOY
+Superior Plus Corp. 	SPB 	SPB
+Surge Energy Inc. 	SGY 	SGY
+Teck Resources Limited, Cl. B 	TECK 	TECK.B
+TELUS Corporation 	T 	T
+TFI International Inc. 	TFII 	TFII
+The Green Organic Dutchman Holdings Ltd. 	TGOD 	TGOD
+The Stars Group Inc. 	TSGI 	TSGI
+Theratechnologies Inc. 	TH 	TH
+Thomson Reuters Corporation 	TRI 	TRI
+Thomson Reuters Corporation 	TRI1 	TRI1
+TMX Group Limited 	X 	X
+TORC Oil & Gas Ltd. 	TOG 	TOG
+Torex Gold Resources Inc. 	TXG 	TXG
+Toromont Industries Ltd. 	TIH 	TIH
+Toronto-Dominion Bank (The) 	TD 	TD
+Tourmaline Oil Corp. 	TOU 	TOU
+TransAlta Corporation 	TA 	TA
+TransAlta Renewable Inc. 	RNW 	RNW
+TransCanada Corporation 	TRP 	TRP
+Transcontinental Inc., Cl. A 	TCL 	TCL.A
+Trican Well Service Ltd. 	TCW 	TCW
+Tricon Capital Group Inc. 	TCN 	TCN
+Turquoise Hill Resources Ltd.	TRQ 	TRQ
+Uni-Select Inc. 	UNS 	UNS
+Uranium Participation Corporation 	U 	U
+Vermilion Energy Inc. 	VET 	VET
+Village Farms International Inc. 	VFF 	VFF
+Waste Connections Inc. 	WCN 	WCN
+West Fraser Timber Co. Ltd. 	WFT 	WFT
+WestJet Airlines Ltd. 	WJA 	WJA
+Westport Fuel Systems Inc. 	WPRT 	WPRT
+Westshore Terminals Investment Corporation 	WTE 	WTE
+Wheaton Precious Metals Corp. 	WPM 	WPM
+Whitecap Resources Inc. 	WCP 	WCP
+Winpak Ltd. 	WPK 	WPK
+WSP Global Inc. 	WSP 	WSP
+Yamana Gold Inc. 	YRI 	YRI
+Agnico Eagle Mines Limited 	AEM 	AEM
+Air Canada 	AC 	AC
+Algonquin Power & Utilities Corp. 	AQN 	AQN
+Alimentation Couche Tard Inc., Cl. B 	ATD 	ATD.B
+AltaGas Ltd. 	ALA 	ALA
+Aphria Inc. 	APHA 	APHA
+Aurora Cannabis Inc. 	ACB 	ACB
+Bank of Montreal 	BMO 	BMO
+Bank of Nova Scotia (The) 	BNS 	BNS
+Barrick Gold Corporation 	ABX 	ABX
+Bausch Health Companies Inc. 	BHC 	BHC
+Baytex Energy Corp. 	BTE 	BTE
+BCE Inc. 	BCE 	BCE
+BlackBerry Limited 	BB 	BB
+BMO Equal Weight Banks Index ETF 	ZEB 	ZEB
+BMO S&P 500 Index ETF 	ZSP 	ZSP
+Bombardier Inc., Cl. B 	BBD 	BBD.B
+Cameco Corporation 	CCO 	CCO
+Canada Goose Holdings Inc. 	GOOS 	GOOS
+Canadian Imperial Bank of Commerce 	CM 	CM
+Canadian National Railway Company 	CNR 	CNR
+Canadian Natural Resources Limited 	CNQ 	CNQ
+CannTrust Holdings Inc. 	TRST 	TRST
+Canopy Growth Corporation 	WEED 	WEED
+Capital Power Corporation 	CPX 	CPX
+Cenovus Energy Inc. 	CVE 	CVE
+Crescent Point Energy Corp. 	CPG 	CPG
+Cronos Group Inc. 	CRON 	CRON
+Detour Gold Corp. 	DGC 	DGC
+Dollarama Inc. 	DOL 	DOL
+Element Financial Corporation 	EFN 	EFN
+Enbridge Inc. 	ENB 	ENB
+Encana Corporation 	ECA 	ECA
+First Majestic Silver Corp. 	FR 	FR
+First Quantum Minerals Ltd. 	FM 	FM
+Fortis Inc. 	FTS 	FTS
+Goldcorp Inc. 	G1 	G1
+Home Capital Group Inc. 	HCG 	HCG
+Horizons Marijuana Life Sciences Index ETF 	HMMJ 	HMMJ
+Hudson's Bay Company 	HBC 	HBC
+Husky Energy Inc. 	HSE 	HSE
+Hypothecary Corporation 	HEXO 	HEXO
+Inter Pipeline Ltd. 	IPL 	IPL
+iShares S&P/TSX 60 Index ETF 	XIU 	XIU
+iShares S&P/TSX Capped Energy Index ETF 	XEG 	XEG
+iShares S&P/TSX Global Gold Index ETF 	XGD 	XGD
+Magna International Inc 	MG 	MG
+Manulife Financial Corporation 	MFC 	MFC
+National Bank of Canada 	NA 	NA
+Nutrien Ltd. 	NTR 	NTR
+Osisko Gold Royalties Ltd. 	OR 	OR
+Pembina Pipeline Corporation 	PPL 	PPL
+Rogers Communications Inc., Cl. B 	RCI 	RCI.B
+Royal Bank of Canada 	RY 	RY
+Shopify Inc. 	SHOP 	SHOP
+Sun Life Financial 	SLF 	SLF
+Suncor Energy Inc. 	SU 	SU
+Teck Resources Limited, Cl. B 	TECK 	TECK.B
+Toronto-Dominion Bank (The) 	TD 	TD
+TransAlta Corporation 	TA 	TA
+TransCanada Corporation 	TRP 	TRP
+Wheaton Precious Metals Corp. 	WPM 	WPM
+
