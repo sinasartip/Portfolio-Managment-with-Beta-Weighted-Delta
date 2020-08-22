@@ -39,13 +39,20 @@ def StockCorrelationMatrix(dir, plot = True):
         #heat map and correlation
 
         corr_frame = pct_frame.corr()
+        corr_sorted = corr_frame.abs()
+        
+        #corr_sorted = corr_sorted.where(np.tril(np.ones(corr_sorted.shape),k=-1).astype(np.bool)).stack().sort_values(ascending=False)
+        #print(corr_sorted)
+
         if plot == True:
             #setup figure
-            fig, ax = plt.subplots()
+            fig, ax = plt.subplots(1,2)
             
             # Create a mask to hide upper part of the correlation matrix
             mask = np.triu(np.ones_like(corr_frame, dtype=np.bool))
-            seaborn.heatmap(corr_frame, cmap='YlGnBu', mask=mask)
+            seaborn.heatmap(corr_frame, cmap='YlGnBu', mask=mask,ax = ax[0])
+            seaborn.heatmap(corr_frame[corr_frame>=0.6], cmap='YlGnBu', mask=mask,ax = ax[1])
+            
             plt.show()
     except Exception as error:
         print(error)
