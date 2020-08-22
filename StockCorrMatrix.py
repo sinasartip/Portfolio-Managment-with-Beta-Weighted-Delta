@@ -4,6 +4,7 @@ import numpy as np
 from scipy.stats import linregress
 import seaborn
 import os
+import math
 
 
 def sorted_alphanumeric(data):
@@ -36,14 +37,24 @@ def StockCorrelationMatrix(dir, plot = True):
         pct_frame = pct_frame.iloc[1:,] #delete the first the row (NaN)
             
 
-        #heat map and correlation
-
+       
+        #count highest correlation stocks
         corr_frame = pct_frame.corr()
         corr_sorted = corr_frame.abs()
         
-        #corr_sorted = corr_sorted.where(np.tril(np.ones(corr_sorted.shape),k=-1).astype(np.bool)).stack().sort_values(ascending=False)
-        #print(corr_sorted)
-
+        #corr_sorted = corr_sorted.where(np.tril(np.ones(corr_sorted.shape),k=-1).astype(np.bool))
+        corr_sorted = corr_sorted[corr_sorted>=0.6]
+        print(corr_sorted)
+        stockname = corr_sorted.columns
+        highest_corr = pd.DataFrame(index = stockname, columns = ["NumOfRep"])
+        
+        for item in stockname:
+            count = corr_sorted[item].notna().sum()
+            highest_corr.loc[item,'NumOfRep'] = count
+        print("--------")
+        print(highest_corr.loc[:,'NumOfRep'].sort_values(ascending=False))
+   
+        #heat map and correlation
         if plot == True:
             #setup figure
             fig, ax = plt.subplots(1,2)
