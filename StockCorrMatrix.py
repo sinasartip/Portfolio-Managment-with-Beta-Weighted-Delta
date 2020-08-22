@@ -65,6 +65,8 @@ def StockCorrelationMatrix(dir, plot = True):
             seaborn.heatmap(corr_frame[corr_frame>=0.6], cmap='YlGnBu', mask=mask,ax = ax[1])
             
             plt.show()
+
+        return [corr_sorted, highest_corr]
     except Exception as error:
         print(error)
         print("There is likely a non csv file type in the folder")
@@ -72,6 +74,3 @@ def StockCorrelationMatrix(dir, plot = True):
 if __name__ == "__main__":
    dir = "./correlation"
    StockCorrelationMatrix(dir)
-   #You need to output array of stock with correlation above 0.6, there will be sets of stocks with this 
-   #setup you should choose the largest
-   
