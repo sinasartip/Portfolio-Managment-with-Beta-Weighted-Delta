@@ -10,7 +10,7 @@
 ### Table of Contents
 
 
-- [Portfolio Management (Directional Risk)](#portfolio-management-directional-risk)
+- [Portfolio Management with beta weighted delta (Directional Risk)](#portfolio-management-with-beta-weighted-delta-directional-risk)
     - [Table of Contents](#table-of-contents)
   - [Description](#description)
       - [Technologies](#technologies)
@@ -114,7 +114,6 @@ Inputs And Outputs
 [Back To The Top](#read-me-template)
 
 ---
-
 ## References
 
 On How To Code Yourself:
@@ -123,7 +122,8 @@ On How To Code Yourself:
         at: [YouTube](https://www.youtube.com/watch?v=YLxV5L6IaFA) (Accessed: 23 
         August 2020).
 
-    [2] Kevin Mooney (2020) How to Calculate Beta-Weighted Delta. Available at: 
+    [2] Kevin Mooney (2020) Calculating the Correlations Between Stocks Using 
+        Python. Available at: 
         [YouTube](https://www.youtube.com/watch?v=YLxV5L6IaFA) (Accessed: 23 August 2020).
 
 On How To Manage A Core Portfolio and Use Beta Weighted Delta:
