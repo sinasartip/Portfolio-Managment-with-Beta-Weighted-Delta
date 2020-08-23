@@ -1,5 +1,5 @@
 from StockCorrMatrix import StockCorrelationMatrix
-from BetaWeightedDelts import  BetaWeightedDelta
+from BetaWeightedDelta import  BetaWeightedDelta
 
 if __name__ == "__main__":
     #check the highest correlation stocks 
