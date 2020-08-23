@@ -124,7 +124,8 @@ On How To Code Yourself:
 
     [2] Kevin Mooney (2020) Calculating the Correlations Between Stocks Using 
         Python. Available at: 
-        [YouTube](https://www.youtube.com/watch?v=YLxV5L6IaFA) (Accessed: 23 August 2020).
+        [YouTube](https://www.youtube.com/watch?v=Oa7br3Okxac&t=190s) 
+        (Accessed: 23 August 2020).
 
 On How To Manage A Core Portfolio and Use Beta Weighted Delta:
 
