@@ -18,7 +18,6 @@
       - [Installation](#installation)
       - [API Reference](#api-reference)
   - [References](#references)
-  - [Back To The Top](#back-to-the-top)
   - [Author Info](#author-info)
 
 ---
@@ -134,6 +133,7 @@ On How To Manage A Core Portfolio and Use Beta Weighted Delta:
         [tastytrade.com](https://bit.ly/2Et98eA) 
 
 [Back To The Top](#read-me-template)
+
 ---
 
 ## Author Info
