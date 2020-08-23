@@ -44,7 +44,7 @@ def StockCorrelationMatrix(dir, plot = True):
         
         #corr_sorted = corr_sorted.where(np.tril(np.ones(corr_sorted.shape),k=-1).astype(np.bool))
         corr_sorted = corr_sorted[corr_sorted>=0.6]
-        print(corr_sorted)
+        #print(corr_sorted)
         stockname = corr_sorted.columns
         highest_corr = pd.DataFrame(index = stockname, columns = ["NumOfRep"])
         
@@ -52,7 +52,8 @@ def StockCorrelationMatrix(dir, plot = True):
             count = corr_sorted[item].notna().sum()
             highest_corr.loc[item,'NumOfRep'] = count
         print("--------")
-        print(highest_corr.loc[:,'NumOfRep'].sort_values(ascending=False))
+        highest_corr = highest_corr.loc[:,'NumOfRep'].sort_values(ascending=False)
+        #print(highest_corr)
    
         #heat map and correlation
         if plot == True:
@@ -74,3 +75,11 @@ def StockCorrelationMatrix(dir, plot = True):
 if __name__ == "__main__":
    dir = "./correlation"
    StockCorrelationMatrix(dir)
+   #results 
+    #using XIU:
+    #CDZ
+    #PDC
+    #REI.UN
+    #TPE
+    #VVO
+    #XCV

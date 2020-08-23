@@ -5,6 +5,22 @@ import matplotlib.pyplot as plt
 from scipy.stats import linregress
 
 #%matplotlib inline
+def BetaWeightedOption(beta, StockPrice, ReferencePrice, OptionDelta):
+    """To calculate the beta weighted delta on an option you can use the following formula:
+        BetaWeightedDelta of Option = beta * $Underlying * Delta of Underlying / $reference
+
+        using the output of this formula you can now add your options beta weighted delta to that of 
+        the rest of your portfolio. 
+    Input: 
+        beta : beta of underlying 
+        StockPrice : Current Price of underlying 
+        ReferencePrice : Current Price of the stock you beta weighted the portfolio to 
+        OptionDelta : The Delta value of the option you want to trade (belonging to the underlying you 
+        provided.)
+    """
+
+    betaO = (beta * StockPrice * OptionDelta) / ReferencePrice 
+    return betaO
 
 def BetaWeightedDelta(StockName, ReferenceName, plot = True): 
     """The beta weighted delta shows how many points your stock will move
@@ -57,8 +73,8 @@ def BetaWeightedDelta(StockName, ReferenceName, plot = True):
 
     #find beta
     slope, intercept, r_value, p_value, std_err = linregress(Reference_pct, Stock_pct)
-    print(f"beta = {slope:.3}")
-    print(f"R^2 = {r_value:.3}")
+    #print(f"beta = {slope:.3}")
+    #print(f"R^2 = {r_value:.3}")
     label = r"$R^{2}$" + f" {r_value:.3}"
     beta = slope
 
@@ -83,3 +99,5 @@ if __name__ == "__main__":
     reference = './correlation/XIC.TO.csv'
 
     BetaWeightedDelta(stock, reference, False)
+
+    
