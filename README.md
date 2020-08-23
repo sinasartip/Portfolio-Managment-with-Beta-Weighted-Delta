@@ -8,7 +8,7 @@
 ---
 
 ### Table of Contents
-You're sections headers will be used to reference location of destination.
+
 
 - [Portfolio Management (Directional Risk)](#portfolio-management-directional-risk)
     - [Table of Contents](#table-of-contents)
