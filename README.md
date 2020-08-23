@@ -1,4 +1,4 @@
-# Portfolio Management (Directional Risk)
+# Portfolio Management with beta weighted delta (Directional Risk)
 
 ![BetaWeigtedDeltaBanner](./readme%20files/cityscape.jpg)
 
