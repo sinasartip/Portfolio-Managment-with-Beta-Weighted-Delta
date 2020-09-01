@@ -1,5 +1,6 @@
 from StockCorrMatrix import StockCorrelationMatrix
 from BetaWeightedDelta import  BetaWeightedDelta
+import os
 
 if __name__ == "__main__":
     #check the highest correlation stocks 
@@ -11,6 +12,7 @@ if __name__ == "__main__":
     print(references)
     print("\n\nselected reference : ")
     reference = list(references.items())[0][0]
+    reference = "XIU.TO"
     print(f"{reference}\n")
 
     #make portfolio
@@ -20,8 +22,8 @@ if __name__ == "__main__":
     print("selected portfolio based on reference correlation:\n")
     print(f"{portfolio}\n")
 
-    for index, value in portfolio.items():
-        beta, _ = BetaWeightedDelta(f"./correlation/{index}.csv", f"./correlation/{reference}.csv",plot=False)
+    for index in os.listdir(dir):
+        beta, r_val = BetaWeightedDelta(f"./correlation/{index}", f"./correlation/XIU.TO.csv",plot=False)
 
-        print(f"{index}  {beta:.3}")
+        print(f"{index}     {beta:5.3}  {r_val:5.3}")
     
