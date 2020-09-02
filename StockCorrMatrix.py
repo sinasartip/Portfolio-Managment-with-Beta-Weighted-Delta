@@ -28,7 +28,8 @@ def StockCorrelationMatrix(dir, plot = True):
     data = []
     headers = []
        
-    RawStockData = pd.read_csv(f"./correlation/data.csv") 
+    RawStockData = pd.read_csv(f"./correlation/data.csv")
+    
     for stock in RawStockData.columns:
         if stock.endswith('3'):
             

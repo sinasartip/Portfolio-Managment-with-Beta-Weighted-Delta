@@ -21,13 +21,21 @@ def grabData(TickerList, linesToSkip):
 
     TickerList = TickerList.readlines()
     symbols = []
+    
     for ticker in TickerList:         
-        symbols.append(f"{ticker.rstrip()}.TO")
-
+        #last item on the ticket list may be a new line character
+        if ticker == '\n':
+            pass
+        else:
+            symbols.append(f"{ticker.rstrip()}")
+            
+    
     data = yf.download(symbols,period='3mo',interval='1d',group_by='ticker',threads=True)
    
-    print(data)
+    
     data.to_csv('data.csv')
+   
+    os.chdir("../")
     
 
 

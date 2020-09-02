@@ -3,7 +3,8 @@ import pandas as pd
 import numpy as np 
 import matplotlib.pyplot as plt
 from scipy.stats import linregress
-
+import os
+from GrabStockData import grabData
 #%matplotlib inline
 def BetaWeightedOption(beta, StockPrice, ReferencePrice, OptionDelta):
     """To calculate the beta weighted delta on an option you can use the following formula:
@@ -22,7 +23,7 @@ def BetaWeightedOption(beta, StockPrice, ReferencePrice, OptionDelta):
     betaO = (beta * StockPrice * OptionDelta) / ReferencePrice 
     return betaO
 
-def BetaWeightedDelta(StockName, ReferenceName, plot = True): 
+def BetaWeightedDelta(dir, StockClose, ReferenceClose, plot = True): 
     """The beta weighted delta shows how many points your stock will move
     for any given move of the reference. 
     The beta weighting allows you to add the various deltas of your portfolio to 
@@ -45,16 +46,17 @@ def BetaWeightedDelta(StockName, ReferenceName, plot = True):
     #Reference is the reference value
 
 
-    Stock = pd.read_csv(StockName)
-    Stock['pct'] = Stock['Close'].pct_change()
-    Reference = pd.read_csv(ReferenceName)
-    Reference['pct'] = Reference['Close'].pct_change()
-
+    StockList = pd.read_csv(f"{dir}/data.csv")
+    
+    Stock = StockList.loc[1:,StockClose].astype(float).pct_change()
+    Stock=Stock.iloc[1:,] #delete the first the row (NaN)
+    Reference = StockList.loc[1:,ReferenceClose].astype(float).pct_change()
+    Reference=Reference.iloc[1:,] #delete the first the row (NaN)
  
     #The first element is NaN
-    Stock_pct = Stock['pct'].to_numpy()
+    Stock_pct = Stock.to_numpy()
     Stock_pct = np.delete(Stock_pct, 0)
-    Reference_pct = Reference['pct'].to_numpy()
+    Reference_pct = Reference.to_numpy()
     Reference_pct = np.delete(Reference_pct, 0)
     #print(f"Shape of reference: {Reference_pct.shape}")
     #print(f"Shape of Stock {Stock_pct.shape}")
@@ -94,10 +96,29 @@ def BetaWeightedDelta(StockName, ReferenceName, plot = True):
         plt.show()
     return([beta, r_value]) 
 
-if __name__ == "__main__":
-    stock = './correlation/XIU.TO.csv'
-    reference = './correlation/XIC.TO.csv'
+def listStocks(dir = "./correlation", fileName = "data.csv"):
+    
+    headers = []
+       
+    RawStockData = pd.read_csv(f"{dir}/{fileName}") 
+    for stock in RawStockData.columns:
+        if stock.endswith('3'):
+            headers.append(stock)
+ 
+    return headers
 
-    BetaWeightedDelta(stock, reference, False)
+
+if __name__ == "__main__":
+    TickerList = open("stocks.txt", "r")
+    grabData(TickerList, 1)
+    dir = "./correlation"
+
+    StockClose = listStocks()
+
+    for index in StockClose:
+      
+        beta, r_val = BetaWeightedDelta(dir,index, "XIU.TO.3",plot=False)
+        
+        print(f"{index[:-5]}     {beta:5.3}  {r_val:5.3}")
 
     
