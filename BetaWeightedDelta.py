@@ -109,8 +109,8 @@ def listStocks(dir = "./correlation", fileName = "data.csv"):
 
 
 if __name__ == "__main__":
-    TickerList = open("stocks.txt", "r")
-    grabData(TickerList, 1)
+    
+    grabData(1)
     dir = "./correlation"
 
     StockClose = listStocks()

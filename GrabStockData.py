@@ -3,10 +3,12 @@ import os
 import shutil
 import numpy as np
 
-def grabData(TickerList, linesToSkip):
+def grabData(linesToSkip = 1):
     """grab data from yahoo finance (not official yahoo finance api)
       
     """
+    TickerList = open("stocks.txt", "r")
+
     if os.path.exists("./correlation"):
         shutil.rmtree("correlation",ignore_errors=True)
         os.mkdir("correlation")

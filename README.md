@@ -45,7 +45,8 @@ The idea is all you need to get a handle of your portfolio is to look at one sto
 ## How To Use
 
 #### Installation
-Currently the project consists of 3 functions. Two to find the beta weighted delta of stocks and Options and another to draw a correlation matrix. So to install you simply download and use the functions as you see fit. 
+The project is currently using yfincane to download its stock data. To use the code first download each python file and use the function as you see fit. The first thing to do is to write the ticker symble of the stocks you want to use in the stocks.txt file.
+
 An example of its use is given in main.py which you can run in python. 
 
 
@@ -54,6 +55,7 @@ What to import
 ```python
     from StockCorrMatrix import StockCorrelationMatrix
     from BetaWeightedDelts import  BetaWeightedDelta
+    from GrabStockData import grabData
 ```
 Inputs And Outputs
 
@@ -110,6 +112,12 @@ Inputs And Outputs
             Beta : beta weighting of your stocks  delta 
             R^2 : wellness of fit of the beta  
    
+    grabData(linesToSkip = 1)
+        Input : 
+            linesToSkip : by default the first line of stocks.txt is tickers. The code is asked to skip this line. If it does not it will treat the phrase tickers as a symble.
+        Output :
+            Saves a file called data.csv in the correlation folder. The file includes everything you requested to download. 
+            
 ```
 [Back To The Top](#read-me-template)
 
