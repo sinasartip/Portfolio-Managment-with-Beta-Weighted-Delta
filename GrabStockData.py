@@ -32,7 +32,7 @@ def grabData(linesToSkip = 1):
             symbols.append(f"{ticker.rstrip()}")
             
     
-    data = yf.download(symbols,period='3mo',interval='1d',group_by='ticker',threads=True)
+    data = yf.download(symbols,period='1mo',interval='1d',group_by='ticker',threads=True)
    
     
     data.to_csv('data.csv')

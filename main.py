@@ -23,7 +23,7 @@ if __name__ == "__main__":
     print(f"{portfolio}\n")
 
     for index in os.listdir(dir):
-        beta, r_val = BetaWeightedDelta(f"./correlation/{index}", f"./correlation/XIU.TO.csv",plot=False)
+        beta, r_val = BetaWeightedDelta(f"./correlation/{index}", f"./correlation/XIU.TO",plot=False)
 
         print(f"{index}     {beta:5.3}  {r_val:5.3}")
     
