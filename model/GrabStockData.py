@@ -22,9 +22,9 @@ class dataGrabber():
         self.tickerList = []
         try:
             with open(self.stockFile_address) as stockFile:
-                stockList = stockFile.readlines()[1:]
-
-                for ticker in stockList:         
+                stockList = stockFile.readlines()
+                
+                for ticker in stockList[1:]:         
                     #last item on the ticket list may be a new line character
                     if ticker == '\n':
                         pass
