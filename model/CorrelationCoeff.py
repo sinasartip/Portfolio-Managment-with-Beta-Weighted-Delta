@@ -6,7 +6,7 @@ class correlationMatrix():
         provide a dataframe with the stock tickers and closing prices. 
         The length does not matter but should be equal. If not equal the longer dataset is trimmed down.
         """
-        print(ClosingPrice.Head)
+        print(ClosingPrice.head)
 
     def get_closing_price(self):
         pass
