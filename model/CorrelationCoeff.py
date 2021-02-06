@@ -12,7 +12,7 @@ class correlationMatrix():
         self.stock_price = ClosingPrice
         self.stock_price = self.get_individual_stocks()
         self.corr_frame = self.correlation_coeffitent()
-
+        
     def get_individual_stocks(self):
         return self.stock_price.iloc[:,1:]    
 
