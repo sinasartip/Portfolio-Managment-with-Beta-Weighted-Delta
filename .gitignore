@@ -1,0 +1,11 @@
+#Visual Studio specific files
+Global settings/
+Local settings/
+.vscode/
+.vs/
+
+#python build
+__pycache__/
+
+#python env
+PortfolioEnv/
