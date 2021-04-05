@@ -41,8 +41,11 @@ class dataGrabber():
     def load_stockData(self):
         pass
 
-    def save_stockData(self):
-        self.StockData.to_csv('Stock_Data.csv')
+    def save_stockDataRAW(self):
+        self.StockData.to_csv('./model/csv_data/Stock_Data.csv')
     
-
+    def save_stockDataTSQL(self):
+        SQL_ready_df = self.StockData.stack(level=0).rename_axis(['Date', 'Ticker']).reset_index(level=1) #fix for multilevel column issue of yfinance
+        SQL_ready_df = SQL_ready_df.round({"Adj Close":4, "Close":4, "High":4, "Low":4, "Open":4})
+        SQL_ready_df.to_csv('./model/csv_data/SQLReady_Stock_Data.csv')       
 

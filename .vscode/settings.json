@@ -1,3 +1,5 @@
 {
-    "python.pythonPath": "PortfolioEnv\\Scripts\\python.exe"
+    "python.pythonPath": "PortfolioEnv\\Scripts\\python.exe",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": false
 }
