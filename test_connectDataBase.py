@@ -13,5 +13,8 @@ class Test_DataBase(unittest.TestCase):
         if row:
             print(row)
 
+    def test_add_price(self):
+        self.database.csv_to_table()
+
 if __name__ == "__main__":
     unittest.main()

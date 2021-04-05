@@ -1,4 +1,5 @@
 import pyodbc
+import pandas as pd
 
 
 class TSQL():
@@ -10,7 +11,7 @@ class TSQL():
     def __init__(self):
         self.parms = {"driver":'DRIVER={ODBC Driver 17 for SQL Server};',
                     "server":'SERVER=DESKTOP-O5IL6FT\WINDOWS10;',
-                    "database":'DATABASE=portfolio-manager;',
+                    "database":'DATABASE=portfolio_manager;',
                     "uid":'UID=pythonApp;',
                     "pwd":'PWD=J!RRBT&*SyQ!'}
 
@@ -29,5 +30,28 @@ class TSQL():
         The table in the database is -> stock_price
         with the following attributes: stock_name, price, date
         """
+        #TODO: check if connection has already been made and csv file exists
+        #TODO: parse database name
+        #TODO: fix row[3]
+
+        self.SQL_ready_df = pd.read_csv('./model/csv_data/SQLReady_Stock_Data.csv')
         
+        self.cursor.execute('''DELETE FROM portfolio_manager.dbo.stock_price;''')
+        
+        for row in self.SQL_ready_df.itertuples():
+            self.cursor.execute('''
+                INSERT INTO portfolio_manager.dbo.stock_price (
+                [date],
+                [ticker],
+                [adj_close],
+                [perd_close],
+                [high],
+                [low],
+                [perd_open],
+                [volume])
+                VALUES (?,?,?,?,?,?,?,?)
+                ''',
+                row.Date,row.Ticker,row[3],row.Close,row.High,row.Low,row.Open,row.Volume)
+            self.cnxn.commit()
+
         
