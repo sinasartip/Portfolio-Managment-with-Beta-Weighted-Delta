@@ -24,7 +24,7 @@ class TSQL():
         self.cnxn = pyodbc.connect(setup)
         self.cursor = self.cnxn.cursor()
 
-    def csv_to_table(self):
+    def add_csv_to_table(self):
         """
         Use to change your yfinance csv files to sql tables.
         The table in the database is -> stock_price
