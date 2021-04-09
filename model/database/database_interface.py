@@ -54,4 +54,10 @@ class TSQL():
                 row.Date,row.Ticker,row[3],row.Close,row.High,row.Low,row.Open,row.Volume)
             self.cnxn.commit()
 
+        def execute(self):
+            """
+            will execute your query and return a pandas dataframe containing the table.
+            """
+            pass
+
         

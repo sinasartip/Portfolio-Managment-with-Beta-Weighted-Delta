@@ -2,6 +2,9 @@ import unittest
 import pyodbc
 from model.database.database_interface import TSQL
 
+
+# TODO: automate this test!!
+
 class Test_DataBase(unittest.TestCase):
     def setUp(self):
         self.database = TSQL()
