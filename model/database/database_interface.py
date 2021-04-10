@@ -1,3 +1,4 @@
+from warnings import resetwarnings
 import pyodbc
 import pandas as pd
 
@@ -54,10 +55,18 @@ class TSQL():
                 row.Date,row.Ticker,row[3],row.Close,row.High,row.Low,row.Open,row.Volume)
             self.cnxn.commit()
 
-        def execute(self):
-            """
-            will execute your query and return a pandas dataframe containing the table.
-            """
-            pass
-
+    def execute(self, command, with_return = False, num_of_rows = None):
+        """
+        will execute your query and return a pandas dataframe containing the table is a select is done.
+        """
+        if not with_return:
+            self.cursor.execute(command)
+            self.cursor.commit()
+        else:
+            if num_of_rows:
+                self.cursor.execute(command)
+                return self.cursor.fetchmany(num_of_rows)
+            else:
+                self.cursor.execute(command)
+                return self.cursor.fetchall() 
         
