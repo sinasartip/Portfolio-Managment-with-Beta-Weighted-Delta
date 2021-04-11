@@ -39,3 +39,22 @@ def add_user(user_name, capital):
         VALUES('{user_name}',{capital});
         '''
     return command
+
+def delete_user(user_name = None, last_user = False):
+    if last_user or not user_name:
+        command = f'''
+        USE portfolio_manager;
+
+        DELETE FROM dbo.users
+        WHERE users.user_id = (SELECT MAX([user_id]) AS max_id
+                      FROM [portfolio_manager].[dbo].[users]);
+        '''
+    else:
+        command = f'''
+        USE portfolio_manager;
+
+        DELETE FROM portfolio_manager.dbo.users
+        WHERE users.user_name = '{user_name}';
+        '''
+
+    return command

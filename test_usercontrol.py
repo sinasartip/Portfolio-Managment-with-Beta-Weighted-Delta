@@ -1,5 +1,6 @@
 import unittest
 import random
+import itertools
 from controller.control_interface import controller
 from random_username.generate import generate_username
 
@@ -39,8 +40,28 @@ class TestUser(unittest.TestCase):
 
         print("making sure there was data in the  table...")
         self.assertGreater(len(rows_1), 0, msg="No data came back from the query")
+        self.assertEqual(len(rows_2), num_users, msg="the returned was not all available rows")
 
         print("all users seen as excpected!")
+
+    def test_delete_user(self):
+        print("-----This test will check if intended rows are deleted-----")
+        rows = self.user_control.get_all_users()
+        self.user_control.delete_user()
+        rows_postdel = self.user_control.get_all_users()
+        self.assertNotEqual(rows[-1][1], rows_postdel[-1][1], msg="the username was not deleted")
+
+        second_user = self.user_control.get_all_users()[1]
+        self.user_control.delete_user(second_user[1])
+        rows_postdel = self.user_control.get_all_users()
+        before = []
+        after = []
+        for rowb, rowa in zip(rows, rows_postdel):
+            before.append(rowb[1])
+            after.append(rowa[1])
+
+        self.assertNotEqual(before, after, msg="the username was not deleted.")
+
 
 if __name__ == "__main__":
     unittest.main()

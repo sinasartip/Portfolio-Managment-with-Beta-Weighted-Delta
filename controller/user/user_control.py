@@ -32,6 +32,7 @@ class Users():
         command_string = add_user(username, total_capital)
         self.database.execute(command_string)
 
-    def delete_user(self):
-        pass
+    def delete_user(self, user_name = None, last_user = False):
+        command_string = delete_user(user_name, last_user)
+        self.database.execute(command_string)
     
