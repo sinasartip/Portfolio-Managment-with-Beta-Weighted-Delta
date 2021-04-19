@@ -1,29 +1,22 @@
-from StockCorrMatrix import StockCorrelationMatrix
-from BetaWeightedDelta import  BetaWeightedDelta
-import os
+from controller.control_interface import controller, controller_parms
+
+class flags():
+    def __init__(self):
+        pass
+    def set_flags(self):
+        self.exit = False
 
 if __name__ == "__main__":
-    #check the highest correlation stocks 
-    #list the stocks that are repeated
-    dir = "./correlation"
-    correlationMat, references = StockCorrelationMatrix(dir,plot=False)
+    flags = flags()
+    flags.set_flags()
+    controller = controller()
 
-    #find reference stock
-    print(references)
-    print("\n\nselected reference : ")
-    reference = list(references.items())[0][0]
-    reference = "XIU.TO"
-    print(f"{reference}\n")
+    #ask what you want to do
+    #new user
+    #enter user info:
+    #username : sina_sartip
+    #total_capital : $10,000
 
-    #make portfolio
-    portfolio = correlationMat[correlationMat.loc[:,reference].notna()]
-    portfolio = portfolio.loc[:,reference]
-    portfolio = portfolio[portfolio<1]
-    print("selected portfolio based on reference correlation:\n")
-    print(f"{portfolio}\n")
-
-    for index in os.listdir(dir):
-        beta, r_val = BetaWeightedDelta(f"./correlation/{index}", f"./correlation/XIU.TO",plot=False)
-
-        print(f"{index}     {beta:5.3}  {r_val:5.3}")
-    
+    #call controller user 
+    user = controller.user_control()
+    user.

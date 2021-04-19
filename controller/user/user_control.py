@@ -1,4 +1,5 @@
 from model.database.queries.users import *
+from controller.user.user_portfolio_sync import *
 
 class UserBuilder():
     def __init__(self):
@@ -18,7 +19,7 @@ class Users():
 
     def get_user(self, username=None):
         command_string = get_user(username)
-        return self.database.execute(command_string, with_return = True, num_of_rows = 1)
+        return self.database.execute(command_string, with_return = True, num_of_rows = 1)[0]
 
     def get_all_users(self, num_of_rows = None):
         command_string = get_all_users(num_of_rows)
@@ -29,10 +30,12 @@ class Users():
         return self.database.execute(command_string, with_return = True)[0][0]
 
     def add_user(self, username, total_capital):
-        command_string = add_user(username, total_capital)
+        portfolio_id = check_last_portfolio_id(self)
+        command_string = add_user(username, total_capital, portfolio_id)
         self.database.execute(command_string)
 
     def delete_user(self, user_name = None, last_user = False):
+        """should also delete the portfolio"""
         command_string = delete_user(user_name, last_user)
         self.database.execute(command_string)
     

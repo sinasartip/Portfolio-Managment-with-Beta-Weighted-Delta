@@ -18,4 +18,8 @@ class controller():
         user_parms = controller_parms
         user_parms["database_interface"] = self.database
         return self.controllers.connect("USERS", **user_parms)
-
+    
+    def portfolio_control(self):
+        portfolio_parms = controller_parms
+        portfolio_parms["database_interface"] = self.database
+        return self.controllers.connect("PORTFOLIO", **portfolio_parms), self.user_control()
