@@ -1,7 +1,7 @@
 from model.database.queries.portfolio import *
 from model.database.queries import *
 from model.database.database_interface import TSQL
-
+from helper_functions.query_return_cleanup import *
 
 class PortfolioBuilder():
     def __init__(self):
@@ -22,7 +22,11 @@ class Portfolio():
 
     def get_portfolio(self, portfolio_id):
         command_string = get_portfolio(portfolio_id)
-        return self.database.execute(command_string, with_return=True)
+        portfolio = self.database.execute(command_string, with_return=True)
+        
+        portfolio = clean_string_spaces(portfolio)
+        portfolio = convert_float(portfolio)
+        return portfolio
 
     def add_position(self, portfolio_id, stock_name, position_size):
         command_string = add_position(portfolio_id, stock_name, position_size)

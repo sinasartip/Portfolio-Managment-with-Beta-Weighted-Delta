@@ -25,11 +25,24 @@ def get_numof_users():
     return command
 
 def get_user(user_name = None):
-    command = f'''
-    SELECT *
-    FROM portfolio_manager.dbo.users
-    WHERE users.user_name = '{user_name}';
-    '''
+    if not user_name:
+        command = f'''
+        WITH last_userid (max_id) AS
+        (
+            SELECT MAX([user_id]) AS max_id
+            FROM [portfolio_manager].[dbo].[users]
+        )
+                
+        SELECT*
+        FROM portfolio_manager.dbo.users
+        WHERE users.user_id = (SELECT max_id FROM last_userid);
+        '''
+    else:
+        command = f'''
+        SELECT *
+        FROM portfolio_manager.dbo.users
+        WHERE users.user_name = '{user_name}';
+        '''
     return command
 
 def add_user(user_name, capital, portfolio_id):

@@ -23,3 +23,9 @@ class controller():
         portfolio_parms = controller_parms
         portfolio_parms["database_interface"] = self.database
         return self.controllers.connect("PORTFOLIO", **portfolio_parms), self.user_control()
+
+    def stock_control(self):
+        stock_parms = controller_parms
+        stock_parms["database_interface"] = self.database
+        return self.controllers.connect("STOCK", **stock_parms)
+ 
